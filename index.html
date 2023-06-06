@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTC</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png" width="70px"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="#benefits">Features</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#download">Download</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div> 
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-box">
+			<h1>Quietly Brilliant</h1>
+			<p>HTC Corporation is a Taiwanese consumer electronics company headquartered in Xindian District, New Taipei City, Taiwan. Founded in 1997.</p>
+			<a href="" class="hero-btn">Visit Us To Know More</a>
+		</div>
+	</section>
+
+	<div id="benefits">
+	<section class="benefits">
+		<h1>Benefits</h1>
+		<p>The advantages we provide</p>
+
+		<div class="row">
+			<div class="benefits-col">
+				<i class="fa fa-diamond" style="font-size:24px"></i>
+				<h3>Quality</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="benefits-col">
+				<i class="fa fa-usd" style="font-size:24px"></i>
+				<h3>Price</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="benefits-col">
+				<i class="fa fa-paw" style="font-size:24px"></i>
+				<h3>Feature</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</section>
+	</div>
+
+	<section class="products">
+		<h1>Our Products</h1>
+		<p>Our line products</p>
+
+		<div class="row">
+			<div class="products-col">
+				<img src="https://androidcommunity.com/wp-content/uploads/2020/07/HTC-Desire-20-Pro.jpg">
+				<div class="layer">
+					<h4>HTC Desire</h4>
+				</div>
+			</div>
+			<div class="products-col">
+				<img src="https://gizmologi.id/wp-content/uploads/2020/10/HTC-Desire-20-02.jpg">
+				<div class="layer">
+					<h4>HTC One</h4>
+				</div>
+			</div>
+			<div class="products-col">
+				<img src="https://asset.kompas.com/crops/Z1sPSqy2BeAZ7QDRTE_2OA7hNis=/1x0:1149x765/750x500/data/photo/2022/06/29/62bbb4771c32f.png">
+				<div class="layer">
+					<h4>HTC Desire Pro</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div id="testimonials">
+	<section class="testimonials">
+		<h1>Testimonials</h1>
+		<p>What our clients says</p>
+
+		<div class="row">
+			<div class="testimonials-col">
+				<img src="https://www.phdmedia.com/indonesia/wp-content/uploads/sites/35/2015/05/temp-people-profile.jpg">
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<h3>Abdul</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-half-o"></i>
+				</div>
+			</div>
+			<div class="testimonials-col">
+				<img src="https://www.phdmedia.com/indonesia/wp-content/uploads/sites/35/2015/05/temp-people-profile-three.jpg">
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<h3>Tina</h3>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star"></i>
+					<i class="fa fa-star-o"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	</div>
+
+	<div id="download">
+	<section class="download">
+		<h1>If You Have Any Question We Always Be Happy To Help</h1>
+		<a href="" class="hero-btn">Contact Us</a>
+	</section>
+	</div>
+
+	<section class="footer">
+		<nav>
+			<div class="nav2-links2">
+				<ul>
+					<li><a href="">Features</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Testimonials</a></li>
+					<li><a href="">Download</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+				<br>
+				<center><hr class="new1"></center>
+				<br>
+				<p>Bandar Lampung City</p>
+				<p>HTC Company</p>
+			</div> 
+		</nav>
+	</section>
+
+<script>
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0"
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px"
+	}
+</script>
+
+</body>
+</html>
